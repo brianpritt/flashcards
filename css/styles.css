@@ -1,7 +1,12 @@
-.row {
+.panel {
   height: 350px;
+  border-radius: 0;
 }
-
 .panel-body {
+  padding-top: 100px;
   display: none;
+}
+.panel-heading {
+  text-align: center;
+  font-size: 20pt;
 }

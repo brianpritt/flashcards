@@ -1,5 +1,9 @@
 $(document).ready(function() {
-  $("#card1 .panel-heading").click(function(){
+  $(function(){
+    $('.panel').click(function(){
+      $(this).children().toggle();
+    });
+/*  $("#card1 .panel-heading").click(function(){
     $("#card1 .panel-body").toggle();
     $("#card1 .panel-heading").toggle();
   });
@@ -61,6 +65,7 @@ $(document).ready(function() {
   });
   $("#card8 .panel-body").click(function(){
     $("#card8 .panel-heading").toggle();
-    $("#card8 .panel-body").toggle();
+    $("#card8 .panel-body").toggle();*/
   });
+
 });
